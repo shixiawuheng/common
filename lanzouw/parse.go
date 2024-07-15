@@ -5,13 +5,13 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/cheggaaa/pb/v3"
+	"github.com/shixiawuheng/common/common"
 	"io"
 	"io/ioutil"
 	"math/rand"
 	"net/http"
 	"os"
 	"path/filepath"
-	"shixia/common"
 	"strconv"
 )
 
