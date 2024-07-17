@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
+	"github.com/shixiawuheng/common/common"
 	"io/ioutil"
 	"net/http"
 	"path/filepath"
-	"shixia/common"
 	"strings"
 	"testing"
 )
