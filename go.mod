@@ -5,6 +5,7 @@ go 1.22
 require (
 	github.com/cheggaaa/pb/v3 v3.1.2
 	golang.org/x/sys v0.8.0
+	github.com/EDDYCJY/fake-useragent v0.2.0 // indirect
 )
 
 require (

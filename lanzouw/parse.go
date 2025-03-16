@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
+	browser "github.com/EDDYCJY/fake-useragent"
 	"github.com/cheggaaa/pb/v3"
 	"github.com/shixiawuheng/common/common"
 	"io"
@@ -16,7 +17,7 @@ import (
 )
 
 func Parse(uri, pwd string, fs *File, data *string) error {
-	Header.Set("User-Agent", UA())
+	Header.Set("User-Agent", browser.Random())
 	Header.Set("Accept", "*/*")
 	Header.Set("Accept-Language", "zh-CN,zh;q=0.9")
 	Header.Set("Connection", "keep-alive")
